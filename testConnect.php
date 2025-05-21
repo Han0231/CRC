@@ -1,8 +1,8 @@
 <?php
-$host = "127.0.0.1";  // or your specific IP
+$host = "localhost";  // or your specific IP
 $username = "root";   // or your MySQL username
 $password = "admin";       // your password (empty if no password)
-$database = "example_schema";  // replace with your actual database name
+$database = "test";  // replace with your actual database name
 
 // Create connection
 $conn = new mysqli($host, $username, $password, $database);
